@@ -1,0 +1,40 @@
+#cardview {	
+	padding: 0;
+	background: transparent;
+	box-shadow: none;
+}
+#cardfrontdiv,#cardbackdiv {
+	width: 339px;
+	height: 213px;
+	background-color: blue;
+	border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 1px;
+    position: relative;
+}
+#cardfrontdiv {
+	float: left;
+}
+#cardbackdiv {
+	float: right;
+}
+@media only screen and (max-width:869px) {
+	#cardview {
+		height: 213px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 339px;
+	}
+	#cardfrontdiv,#cardbackdiv {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#cardfrontdiv {
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (min-width: 869px) {
+	#cardview {
+		height: 213px;
+		width: 100%;
+	}
+}

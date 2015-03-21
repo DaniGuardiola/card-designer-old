@@ -1,0 +1,36 @@
+html,body {
+    height: 100%;
+    margin: 0;
+}
+#cardflow {
+    z-index: 90;
+    min-width: 339.2px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0px;
+    padding-top: 50px;
+    width: 80%;
+    min-height: 100px;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    min-height: 40px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 1px;
+    padding: 20px 22px;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}

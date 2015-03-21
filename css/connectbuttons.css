@@ -1,0 +1,214 @@
+#connectcard {
+    height: 80px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    -ms-transition: height 0.2s;
+    -o-transition: height 0.2s;
+    transition: height 0.2s;
+}
+.connectbutton {
+    width: 27%;
+    float: left;
+    margin-right: 3%;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 0px;
+    border-radius: 3px;
+}
+#moreimportboxbutton {
+    width: 10%;
+    float: right;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 0px;
+    border-radius: 3px;
+    background-color: gray;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/moreimportbutton.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 24px;
+    outline: none;
+    cursor: pointer;
+}
+#moreimportboxbutton:hover, #moreimportboxbutton:focus {
+    background-color: #898686;
+}
+#connectcard button {
+    outline: none;
+    border: none;
+}
+.connectbutton span {
+    position: relative;
+    top: 0px;
+    color: white;
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:'Roboto', arial, sans-serif;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*GOOGLE BUTTON*/
+ #customBtn {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    background: #dd4b39 url('chrome-extension://__MSG_@@extension_id__/images/various/gplus.png') no-repeat;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    white-space: nowrap;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+}
+#customBtn:hover, #customBtn:focus {
+    background-color: #e74b37;
+    cursor: hand;
+}
+span.label {
+    font-weight: bold;
+}
+p: 3px;
+
+}
+span.buttonText {
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family:'Roboto', arial, sans-serif;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@media only screen and (max-width:500px) {
+    #customBtn {
+        background-position: center;
+    }
+    span.buttonText {
+        display: none;
+    }
+}
+@media only screen and (min-width:500px) {
+    #customBtn {
+        background-position: 10px center;
+    }
+}
+/*FACEBOOK BUTTON*/
+ #facebookbutton {
+    display: inline-block;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+    background: #3b5998 url('chrome-extension://__MSG_@@extension_id__/images/various/facebook.png') no-repeat;
+    background-size: 22px 22px;
+}
+#facebookbutton:hover, #facebookbutton:focus {
+    background-color: #3B5DA0;
+}
+@media only screen and (max-width:500px) {
+    #facebookbutton {
+        background-position: center;
+    }
+    #facebookbutton span {
+        display: none;
+    }
+}
+@media only screen and (min-width:500px) {
+    #facebookbutton {
+        background-position: 5px center;
+    }
+}
+/*#facebookbutton span {
+    position: relative;
+    top: 0px;
+    color: white;
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:'Roboto', arial, sans-serif;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}*/
+
+/*TWITTER BUTTON*/
+ #twitterbutton {
+    display: inline-block;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+    background: #0084b4 url('chrome-extension://__MSG_@@extension_id__/images/various/twitter.png') no-repeat;
+    background-size: 22px 22px;
+}
+#twitterbutton:hover, #twitterbutton:focus {
+    background-color: #078CBC;
+}
+@media only screen and (max-width:500px) {
+    #twitterbutton {
+        background-position: center;
+    }
+    #twitterbutton span {
+        display: none;
+    }
+}
+@media only screen and (min-width:500px) {
+    #twitterbutton {
+        background-position: 10px center;
+    }
+}
+/*#twitterbutton span {
+    position: relative;
+    top: 0px;
+    color: white;
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:'Roboto', arial, sans-serif;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}*/

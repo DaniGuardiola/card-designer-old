@@ -1,0 +1,11 @@
+{
+  "name": "Cardapp",
+  "description": "Crea tus propias tarjetas, imprímelas o cómpralas con envío gratuito.",
+  "version": "0.1003",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "images/appicon-16.png", "128": "images/appicon-128.png" }
+}
